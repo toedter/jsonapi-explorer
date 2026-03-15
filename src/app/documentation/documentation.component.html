@@ -1,0 +1,20 @@
+@if (docUri) {
+  <div class="container">
+    <br />
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-header first-row">
+          <h5>Documentation</h5>
+        </div>
+        <div>
+          <iframe
+            id="doc-iframe-scrollable"
+            title="Documentation"
+            [src]="docUri"
+            [style.height]="iframeHeight"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+}

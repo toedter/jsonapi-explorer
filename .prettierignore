@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist
+build
+coverage
+.angular
+
+# Generated files
+*.log
+*.tgz
+
+# Documentation
+doc/img
+
